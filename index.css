@@ -1,8 +1,22 @@
 *{
 	padding right: 0%;
-	font-family: source code pro;
-	background: #D5C6E0;
+	font-family: source code pro,monospace;
+
+	
 }
+body{
+	background:url();
+	padding-top: 5rem;
+
+	background-size: 100%;
+	background-position: center;
+	background-attachment: scroll;
+	opacity: .89;
+	position: scroll;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/bg.jpg");
+}
+
+
 .portfolio{
 
 	text-align: left;
@@ -13,20 +27,30 @@
 
 
 }
-img {
+.shiela{
+	width: 20%;
+	height: auto;
+	border-radius: 75px;
+	padding-left: 5px;
+	
 
-  width: 20%;
+}
+
+img{
+
+  width:80%;
   height: auto;
-  border-radius: 75px;
+  border-radius: 5px;
   padding-left: 5px;
-  background: #D5C6E0;
+
   
 }
 
 .container-fluid{
 	padding: 4px;
-	margin:  5px;
-	background: #D5C6E0;
+	margin:  5rem;
+	background: white;
+
 }
 
 .about-me{
@@ -41,6 +65,7 @@ img {
 	text-align: center;
 	align-content: center;
 	background: #D5C6E0;
+	margin: auto;
 
 }
 
@@ -56,14 +81,49 @@ img {
 	margin: 5px;
 	background: #F5E6E8;
 	border: black;
+	padding-bottom: 5px;
+	margin-top: 5em;
 }
 .contactme{
-	background-color: white;
 	border: black;
-	width: 300px;
-	align-content: left;
+	width: auto;
+	align-content: center;
+
 }
-.footer{
-	background: lightpink;
+#gmap_canvas{
+  height: 800vh;
+  width:auto;
+}
+.carousel{
+	padding-bottom: 5px;
+}
+.contacthead{
 	text-align: center;
+	color: rgb(218, 236, 232, / 90%);
+	font-weight: 600;
 }
+.navbar-brand{
+	color: white;
+}
+#navbar-toggler {
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: #ghostwhite;
+    border: 1px solid #000000f7;
+    border-radius: 0.25rem;
+}
+} 
+.navbarNav{
+	background: white;
+}
+.nav-link{
+	color: white;
+}
+footer{
+	color: white;
+}
+
+
+
+
