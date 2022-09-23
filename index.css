@@ -1,7 +1,7 @@
 *{
 	padding right: 0%;
 	font-family: source code pro,monospace;
-	color: white;
+	color: black;
 
 	
 }
@@ -13,7 +13,7 @@ body{
 	background-attachment: scroll;
 	opacity: .75;
 	position: scroll;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.5)), url("images/bg.jpg");
+	background-image:  url("images/bg.png");
 
 }
 
@@ -50,7 +50,7 @@ img{
 .container-fluid{
 	padding: 4px;
 	margin:  5rem;
-	background: #22223B;
+	background: #f0c7f1;
 
 }
 
@@ -58,7 +58,7 @@ img{
 	text-align: justify;
 	padding: 5px;
 	align-content: center;
-	background: #22223B;
+	background: #edd2f3;
 
 }
 .jumbotron{
@@ -80,11 +80,11 @@ img{
 
 	padding: 5px;
 	margin: 5px;
-	background: #22223B;
+	background: #d491d3;
 	border: black;
 	padding-bottom: 5px;
 	margin-top: 5em;
-	color: white;
+	color: black;
 }
 .contactme{
 	border: black;
@@ -102,26 +102,36 @@ img{
 }
 .contacthead{
 	text-align: center;
-	color: rgb(218, 236, 232, / 90%);
+	color: black;
 	font-weight: 600;
 }
 .navbar-brand{
-	color: white;
+	color: black;
 }
 
 
 } 
 .navbarNav{
-	background: white;
+	color: primary;
 }
 .nav-link{
-	color: white;
+	color: rgb(13, 8, 8);
 }
 footer{
     bottom: center;
     width: 100%;
     text-align: center;
+	color: black;
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: black;
+    box-shadow: none;
 }
 
-
+.custom-toggler.navbar-toggler {
+    border-color: rgb(0, 0, 0);
+	color: black;
+}
 
